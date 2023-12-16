@@ -8,14 +8,8 @@ Changelog
 Added
 -----
 
-- Add bcachefs-tools to releng for access to bcachefs userspace tools.
-- Add tftp as a valid protocol for downloading automated boot script.
-
 Changed
 -------
-
-- Set ``RequiredForOnline=routable`` in systemd-networkd configuration files to improve the chances that the network
-  really is *online* when ``network-online.target`` is reached.
 
 Deprecated
 ----------
@@ -25,6 +19,21 @@ Fixed
 
 Removed
 -------
+
+[74] - 2023-12-20
+=================
+
+Added
+-----
+
+- Add bcachefs-tools to releng for access to bcachefs userspace tools.
+- Add tftp as a valid protocol for downloading automated boot script.
+
+Changed
+-------
+
+- Set ``RequiredForOnline=routable`` in systemd-networkd configuration files to improve the chances that the network
+  really is *online* when ``network-online.target`` is reached.
 
 [73] - 2023-09-29
 =================
